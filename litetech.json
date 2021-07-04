@@ -1,0 +1,673 @@
+[
+  {
+    "children": [
+      {
+        "text": "History",
+        "bold": true
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "LiteTech initially started in early July as a semi-technical server known as Tech Toddlers. However, after a shift in management and server focus it rebranded and started anew as LiteTech on July 31st 2020. The server makes use of vanilla+ addons such as carpet mod and a few other optimization mods to enhance performance and gameplay. "
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Projects"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Some projects the server has completed are:"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Spawn Perimeter"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Villager Trading Hall"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Renewable Shulkers Shulker farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "CCS Raid Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Iron Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Quad Witch Perimeter"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "46 Chunk Slime Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Flower Perimeter"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Spooder Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Polar Bear Perimeter & Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "1K Storage Perimeter"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Wool Farm"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Server Details"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Carpet Addons",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "renewableCoral"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "stackableShulkerBoxes"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "onePlayerSleeping"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "xpNoCooldown"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "renewableSponges"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "missingTools"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "accurateBlockPlacement"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "shulkerSpawningInEndCities"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Other Mods",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Lithium"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Hopper Optimizations"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Light Batch"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "LiteTech Additions"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "LiteTech Carpet Addons"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "TIS Carpet Addons"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "EndTech Additions"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Servux"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Syncmatica"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Datapacks",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Universal Dyeing"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Back to Blocks"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "More Blocks"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Notch Apple Craft"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Images"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "img",
+    "url": "https://i.imgur.com/37TVRle.png"
+  },
+  {
+    "type": "img",
+    "url": "https://i.imgur.com/vPzssZw.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://i.imgur.com/6S1Y9Kx.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://i.imgur.com/q3HPspv.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://i.imgur.com/CSlDB0d.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://i.imgur.com/epMPt41.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://i.imgur.com/wMklhZ6.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://i.imgur.com/zvihBnC.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://i.imgur.com/L3p5tAF.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "The full details of the server and its various as can be found on "
+      },
+      {
+        "type": "a",
+        "url": "https://litetech.cf",
+        "children": [
+          {
+            "text": "https://litetech.cf"
+          }
+        ]
+      },
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Current Members List"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "iDarkLightning",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "owen",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Galgonite",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Rybot666",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "NiceGarytheGoat",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ".Psychopomp**",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Boris NL",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Silveon",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Freakin-Ha",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "justluke",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Feski",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "luki2005st",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "CrazedInvento",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Friendlyguy",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "heinzkopf77",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "A_360_Lapis",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "apoI0",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "bread boi",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Reggie Belafonte",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "bold": true,
+            "text": "Swiiz"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "bold": true,
+            "text": "Tralala"
+          }
+        ]
+      }
+    ]
+  }
+]

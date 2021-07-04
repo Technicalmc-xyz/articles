@@ -1,0 +1,46 @@
+[
+  {
+    "children": [
+      {
+        "text": "History"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "TNT Duplication, or TNT Duping, was first discovered in 1.7 but was not used as it is stupid. It gained popularity for the first time when upcoming technical Minecraft player ilmango released a video on YouTube entitled \"The BEST Way To Make Perimeters in Minecraft,\" showcasing a slimestone flying machine that used flying TNT Dupers and liquid clearing machines to create a large hole fully automatically."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Opposition"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Mojang historically opposes TNT Duping as they consider it an exploit, but have decided to leave it in the game for the time being, "
+      },
+      {
+        "type": "a",
+        "url": "https://www.reddit.com/r/Minecraft/comments/fkt9jf/anchor_yourself_to_the_nether_snapshot_20w12a_is/fkv33q3?utm_source=share&utm_medium=web2x&context=3",
+        "children": [
+          {
+            "text": "due to a lack of replacement method"
+          }
+        ]
+      },
+      {
+        "text": " for what TNT duping currently does."
+      }
+    ],
+    "type": "paragraph"
+  }
+]

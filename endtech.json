@@ -1,0 +1,768 @@
+[
+  {
+    "children": [
+      {
+        "text": "History"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Endtech started as marvincraft in May 2019 - a small group of friends that wanted to play minecraft together. Since then it's evolved into a thriving technical server with a large community around it. It began in 1.14 with the goal of updating to each stable version in order to push each latest Minecraft version to its limit; end gaming everything with the latest technology, and using the end dimension to it's full potential. After the "
+      },
+      {
+        "type": "a",
+        "url": "https://www.reddit.com/r/technicalminecraft/comments/hsfo8f/end_tek_is_kil/",
+        "children": [
+          {
+            "text": "accidental deletion"
+          }
+        ]
+      },
+      {
+        "text": " of their world in July 2020, they started anew on a seed better than before, which was cracked with the help of KaptainWutax and others. Endtech uses vanilla+ technical mods to decrease lag and make items renewable without requiring duping. "
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Endtech has adopted the phrase \"just stay optimism\" as motivation to keep going after the accidental deletion. It's written on the spawn mapart - see below for pictures."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Server details and mods"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Endtech uses vanilla+ technical mods to decrease lag and make items renewable without requiring duping. The carpet configurations used on endtech are as follows"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "AntiCheatDisabled "
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "CtrlQCraftingFix"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "FlippingCactus"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "HuskSpawningInTemples"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "OnePlayerSleeping"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "RenewableSponges"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "ShulkerSpawningInEndCities"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "StackableShulkerBoxes"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "AccurateBlockPlacement"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "CarefulBreak"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "/cs (scarpet script)"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Other mods used include"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Lithium"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Light batch"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Servux"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Endtech additions"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Syncmatica"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "The seed is -4148652942740800478. This seed includes many structures close to end portals, which is necessary for the goal of the server. Most of the seed finding work has been done by Nnnik, with the very useful help of KaptainWutax, JeWe37, Experimental Idea (Dukecool15), and Marklin."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "You can join Endtech's discord "
+      },
+      {
+        "type": "a",
+        "url": "https://discord.gg/t7UwaDc",
+        "children": [
+          {
+            "text": "here"
+          }
+        ]
+      },
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Current member List"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "(Trial members not included)"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Abacus"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "B1nary"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ckam"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Crystaldb"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Daniel Bauwens"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Deedit"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Estries"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Epiphany"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Epse"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Euler"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "ExperimentalIdea (Dukecool15)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Feski"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Garlic bread"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "iDarkLightning"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Innerwolf"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Jezzers"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Jmarvin"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Justluke"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Kirito Grande"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "LondonMine"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "NLS"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "NotTipp"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Nnnik"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Jonathan (Specific)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ohshin"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Rohiem"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Samipourquoi"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Sassy"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "SCP-999"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Smugless"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "SoapCf"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Trunky"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Underscore_"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "xXOpticNerveXx"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Gallery"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Couchlion podcast with nnnik - "
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/watch?v=6Pa_-srt13k",
+            "children": [
+              {
+                "text": "https://www.youtube.com/watch?v=6Pa_-srt13k"
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/watch?v=6Pa_-srt13k",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Live overviewer map - "
+          },
+          {
+            "type": "a",
+            "url": "https://map.endte.ch/",
+            "children": [
+              {
+                "text": "https://map.endte.ch/"
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/watch?v=6Pa_-srt13k",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      },
+      {
+        "type": "a",
+        "url": "https://www.youtube.com/watch?v=6Pa_-srt13k",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "text": "SMP"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Not central storage (NCS) nether hub"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/731948992384073828/806479412152369202/Screenshot_from_2020-10-23_21-31-32.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "NCS - Inside and outside"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/731948992384073828/806472416372064286/unknown.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/731948992384073828/806472709449187388/unknown.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Spawn (Mapart text: \"just stay optimism\")"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/731948992384073828/806474327998201856/unknown.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Overworld portal gold/xp farm"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/731948992384073828/806479411749584956/Screenshot_from_2020-10-23_21-25-18.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "CMP"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "The new nether hub"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/731948992384073828/806824021688713256/unknown.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  }
+]

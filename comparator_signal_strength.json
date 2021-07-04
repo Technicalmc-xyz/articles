@@ -1,0 +1,905 @@
+[
+  {
+    "children": [
+      {
+        "text": "The redstone comparator is a block which can maipulate signal strength outputs from other redstone components, certain blocks, and item frames."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Normal Containers"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "For normal containers, the output of a comparator is governed by a simple equation:"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Let "
+      },
+      {
+        "text": "I",
+        "code": true
+      },
+      {
+        "text": " be the size of the inventory, "
+      },
+      {
+        "text": "i",
+        "code": true
+      },
+      {
+        "text": " be the slot in the inventory, "
+      },
+      {
+        "text": "C",
+        "code": true
+      },
+      {
+        "text": " be the number of items in the stack, "
+      },
+      {
+        "text": "S",
+        "code": true
+      },
+      {
+        "text": " be the stack size ("
+      },
+      {
+        "text": "1",
+        "code": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "16",
+        "code": true
+      },
+      {
+        "text": ", or "
+      },
+      {
+        "text": "64",
+        "code": true
+      },
+      {
+        "text": "), and "
+      },
+      {
+        "text": "I_N",
+        "code": true
+      },
+      {
+        "text": " be the number of slots in the inventory such that the "
+      },
+      {
+        "text": "C",
+        "code": true
+      },
+      {
+        "text": " for that slot is non-zero. Assume that "
+      },
+      {
+        "text": "S",
+        "code": true
+      },
+      {
+        "text": " for an empty slot is "
+      },
+      {
+        "text": "1",
+        "code": true
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://i.imgur.com/1saTFkJ.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Note that "
+      },
+      {
+        "text": "C",
+        "code": true
+      },
+      {
+        "text": " can be on the domain "
+      },
+      {
+        "text": "[1,127]",
+        "code": true
+      },
+      {
+        "text": " regardless of the stack size. For this reason, it is possible to achieve signal strengths greater than "
+      },
+      {
+        "text": "15",
+        "code": true
+      },
+      {
+        "text": " in 1.12 survival using stacked shulker boxes. All stacked boxes acquired in older versions will still be stacked if the world is updated to a newer version, however stacking boxes in newer versions is no longer possible without the assistance of mods or duping exploits."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Since no other redstone component can directly transmit a signal strength greater than "
+      },
+      {
+        "text": "15",
+        "code": true
+      },
+      {
+        "text": ", the raw transmission of these signals is therefore confined to the x-z plane."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Comparators cannot read from chests with solid blocks directly above them. If the block is placed or removed, it will still retain its state until updated."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "The list of normal containers and their inventory sizes are as follows:"
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Furnace, Blast Furnace, Smoker: "
+          },
+          {
+            "text": "3",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Hopper, Brewing Stand*: "
+          },
+          {
+            "text": "5",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Dropper, Dispenser: "
+          },
+          {
+            "text": "9",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Chest, Trapped Chest, Barrel, Shulker Box: "
+          },
+          {
+            "text": "27",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Double Chest, Double Trapped Chest: "
+          },
+          {
+            "text": "54",
+            "code": true
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "* The number of slots in a brewing stand was changed from "
+      },
+      {
+        "text": "4",
+        "code": true
+      },
+      {
+        "text": " to "
+      },
+      {
+        "text": "5",
+        "code": true
+      },
+      {
+        "text": " in the 1.9 release with the addition of the blaze powder mechanic."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Other Sources"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Comparators can read signal strengths from other blocks, but use different rules for calculating the signal strength output for each one."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Command Blocks",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Comparators will use the value of the "
+      },
+      {
+        "text": "SuccessCount",
+        "code": true
+      },
+      {
+        "text": " tag directly. This tag is responsible for tracking the number of successful executions for the command it is currently set to hold. However, this value can be directly modified by using commands ("
+      },
+      {
+        "text": "/blockdata &lt;x> &lt;y> &lt;z> {SuccessCount:&lt;value>}",
+        "code": true
+      },
+      {
+        "text": " for 1.8 - 1.12 and "
+      },
+      {
+        "text": "/data modify block &lt;x> &lt;y> &lt;z> SuccessCount set value &lt;value>",
+        "code": true
+      },
+      {
+        "text": " for 1.13 and above)."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Detector Rails",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Comparators reading from detector rails will output a signal strength according to the equation in "
+      },
+      {
+        "text": "Normal Containers",
+        "code": true,
+        "bold": true
+      },
+      {
+        "text": " if there is a hopper or chest minecart above it. If there is a command block minecart above it, it will use the same rule as described in "
+      },
+      {
+        "text": "Command Blocks",
+        "code": true,
+        "bold": true
+      },
+      {
+        "text": ". If there are multiple of these types of minecarts on the detector rail, the oldest one takes priority. All other minecarts have no effect on the output."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Item Frames",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Comparators reading from item frames will output a signal strength based on the rotation of the item in the frame, if any. If there are no items, the comparator will output zero. An item in the frame will change the output to one, and rotating the item will increase the output by one until it returns to the default rotation and resets back to one. The behavior for determining the signal strength for competing sources are different between versions: "
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "pre-1.16: The value from blocks occupying the same space as the item frame always take priority over the item frame. Changing the signal strength output of the block without sending a comparator update (e.g. dispensing water, moving an open trapdoor, locking a chest with a solid block, etc.) will cause the comparator to retain its state until updated as described in the "
+      },
+      {
+        "text": "Normal Containers",
+        "code": true,
+        "bold": true
+      },
+      {
+        "text": " section. This effectively creates a dual-edge comparator update detector."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "post-1.16: The comparator will take the maximum value from any input which is not a redstone component, unless said redstone component is powered to signal strength "
+      },
+      {
+        "text": "15",
+        "code": true
+      },
+      {
+        "text": " or above. Changing the maximum value without sending a comparator update (e.g. locking a chest with a solid block) will cause the comparator to retain its state until updated as described in the "
+      },
+      {
+        "text": "Normal Containers",
+        "code": true,
+        "bold": true
+      },
+      {
+        "text": " section similar to the pre-1.16 behavior."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Jukeboxes",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "If a disc is inserted into the juke box, it will output a unique signal strength depending on which disc is stored in it:"
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "13",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "cat",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "blocks",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "chirp",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "far",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "mall",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "mellohi",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "stal",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "strad",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "ward",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "11",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "wait",
+            "code": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "pigstep",
+            "code": true
+          },
+          {
+            "text": "*"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "* post-1.16 only."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "The signal strength is retained regardless of whether the song is still playing."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Cakes",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "A cake has a maximum value of "
+      },
+      {
+        "text": "14",
+        "code": true
+      },
+      {
+        "text": ", but decreases by two levels for each bite consumed (i.e. "
+      },
+      {
+        "text": "signal_strength = 14 - 2 * #bites",
+        "code": true
+      },
+      {
+        "text": ")."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Cauldrons",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "With water or snow*, the output represents the fill level, which can be in the range "
+      },
+      {
+        "text": "[0,3]",
+        "code": true
+      },
+      {
+        "text": ". Lava cauldrons* will always output one."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "* post-1.17 only."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Composters",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "The output represents the fill level, which can be in the range "
+      },
+      {
+        "text": "[0,8]",
+        "code": true
+      },
+      {
+        "text": ". Note that level "
+      },
+      {
+        "text": "7",
+        "code": true
+      },
+      {
+        "text": " is unstable and will transition to level "
+      },
+      {
+        "text": "8",
+        "code": true
+      },
+      {
+        "text": " after exactly one second ("
+      },
+      {
+        "text": "20",
+        "code": true
+      },
+      {
+        "text": " game ticks) after level "
+      },
+      {
+        "text": "7",
+        "code": true
+      },
+      {
+        "text": " was reached."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Lecterns",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "The output represents which page the book is on as a fraction of "
+      },
+      {
+        "text": "15",
+        "code": true
+      },
+      {
+        "text": ", where the first page is "
+      },
+      {
+        "text": "0",
+        "code": true
+      },
+      {
+        "text": " and the last is "
+      },
+      {
+        "text": "15",
+        "code": true
+      },
+      {
+        "text": ". The signal strength is precisely "
+      },
+      {
+        "text": "(page_index/max(1,total_pages-1)) * 15",
+        "code": true
+      },
+      {
+        "text": "."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Beehives/Bee Nests",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "The output represents the fill level, which can be in the range "
+      },
+      {
+        "text": "[0,5]",
+        "code": true
+      },
+      {
+        "text": "."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Respawn Anchors",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "The output is "
+      },
+      {
+        "text": "max(0,4*#charges-1)",
+        "code": true
+      },
+      {
+        "text": "."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Skulk Sensors",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Comparators will output a different signal according to which sound the sensor detected. The current values are not yet final, so they will not be listed here."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Other Redstone Components",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Comparators will preserve whatever signal strength is given as input."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Comparator Mechanics"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Given multiple redstone inputs, a comparator will take the one with the maximum signal strength."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Block-Entity Priority: "
+          },
+          {
+            "text": "pre-1.16",
+            "code": true
+          },
+          {
+            "text": ": Comparators always prioritize the block.  "
+          },
+          {
+            "text": "post-1.16",
+            "code": true
+          },
+          {
+            "text": ": Comparators prioritize the highest signal strength."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Block/Entity-Component Priority: Comparators prioritize Components if and only if their signal strength is "
+          },
+          {
+            "text": "15",
+            "code": true
+          },
+          {
+            "text": " or greater."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Component Signal Strength Priority: Comparators will prioritize based on directional update order."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Comparison/Subtraction Priority: Comparators will use the largest of the two side values."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Comparison Logic: Comparators will always output zero if the back input is less than at least one of the side inputs."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Subtraction Logic: Comparators will output according to the rule: "
+          },
+          {
+            "text": "out = max(0,in - max(left,right))",
+            "code": true
+          },
+          {
+            "text": "."
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  }
+]

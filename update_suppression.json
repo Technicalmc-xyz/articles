@@ -1,0 +1,102 @@
+[
+  {
+    "children": [
+      {
+        "text": "Update suppression is a very useful method that can be used to prevent a block from receiving an update. It does this by filling the memory stack of the server, once the stack overflows it throws an error preventing all code that would have run after to prevent getting executed. This also causes a server crash unless surrounded by a try-catch, which player interactions do! Using player interactions you are able to use update suppression without crashing the server."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Side-effects/Uses:",
+        "underline": true
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Portal Slicing"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Using the update order of blocks you are able to do something called portal slicing. Which is a technic to quickly make large update suppressed portals."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "["
+      },
+      {
+        "type": "a",
+        "url": "https://www.youtube.com/watch?v=VSpqrWRefA4",
+        "children": [
+          {
+            "text": "Video"
+          }
+        ]
+      },
+      {
+        "text": "] Discovered by: _Kayleigh"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Soulbound chests"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Using an update suppressor you are able to suppress the chest exiting packet, allowing you to bind your player to a chest, this results in many interesting side effects. post on soulbound chests coming soon"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "["
+      },
+      {
+        "type": "a",
+        "url": "https://www.youtube.com/watch?v=RchVIanvMVg",
+        "children": [
+          {
+            "text": "Video"
+          }
+        ]
+      },
+      {
+        "text": "] Discovered by: PR0CESS"
+      },
+      {
+        "type": "a",
+        "url": "https://www.youtube.com/watch?v=VSpqrWRefA4",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  }
+]

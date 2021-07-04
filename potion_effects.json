@@ -1,0 +1,47 @@
+[
+  {
+    "children": [
+      {
+        "text": "Removing all effects"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "There are 3 ways to remove all potion effects:"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Jumping through an end portal in the end"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Using a Totem of undying"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Drinking milk"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  }
+]

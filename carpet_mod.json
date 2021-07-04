@@ -1,0 +1,18 @@
+[
+  {
+    "children": [
+      {
+        "text": "History"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Popular technical Minecraft player Gnembon created Carpet Mod as a tool for testing farms in creative mode. It was named as \"Carpet Mod\" because the mod's functions were originally activated & controlled by placing carpets of different colours. Placing two brown carpets, for example, would measure the distance between them and display it in chat, while placing a pink carpet would print in chat a list of the mobs that could spawn in that location. Eventually he and a few others, notably Xcom6000 & Skyrising, added so many features that the amount of modifications from vanilla reached the 32-bit integer limit and overflowed, causing the mod to actually become less modded than vanilla."
+      }
+    ],
+    "type": "paragraph"
+  }
+]

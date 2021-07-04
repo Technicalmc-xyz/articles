@@ -1,0 +1,981 @@
+[
+  {
+    "children": [
+      {
+        "text": "History"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "The Mechanists server was founded by "
+      },
+      {
+        "text": "Elvar",
+        "bold": true
+      },
+      {
+        "text": " on November 22 2019. The Server started as a bukkit server first, but then moved to Fabric and turned into a Technical server. "
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Projects"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": " Projects we have finished:",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Nether Hub"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Storage"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Spawn Perimiter"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Furnace Array"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Portal Pigman XP Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Slime Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Honey Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Guardian Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Raid Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Spider Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "EOL Quad Witch Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Villager Trading Hall"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Quarry"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Gold farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Cactus Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Flower Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Pumpkin/Melon farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Crafters"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ice Farms"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Squid Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Drowned Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Nether/Overworld/Passive Mobswitches"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Spawn Chunk decoration"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "A Piston Factory for Bedrock Breaking"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Iron Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Wither Skeleton Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Hoglin Farm"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Project Pictures"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Gold Farm with Bartering, about 2 million broken bedrock."
+      },
+      {
+        "type": "a",
+        "url": "http://mechanists.org/maps",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/660557600282116129/837411798096543854/2021-04-29_20.45.02.png?width=720&height=405",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Gold Farm Overworld side, Light supressed floor to avoid snow."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/660557600282116129/764280154343211038/unknown-37.png?width=720&height=405",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/660557600282116129/764242644657635379/2020-10-09_17.png?width=720&height=381",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Raid Farm Decoration, Full Render distance deco."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/660557600282116129/821353263995158598/default_2021-03-16_08-39-30-70.png?width=720&height=405",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "5k+ Furnace Array Project with UI and Control Room in the Nether."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/660557600282116129/829169649739366420/unknown.png?width=720&height=405",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "End Hub"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/660557600282116129/730493745254105268/2020-07-08_22.png?width=720&height=405",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Slime Farm Nether Side"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/660557600282116129/764614878479646760/unknown.png?width=731&height=411",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Villager Hall"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/660557600282116129/770396869380538378/2020-10-26_21.png?width=731&height=411",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Quarry"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/660557600282116129/797836162923364362/2021-01-09_17.44.07.png?width=731&height=387",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Server details"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Server is currently running 1.16.5 on Hetzner server. We are more focused SMP Server that likes to focus on Decoration aswell as farms."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      },
+      {
+        "type": "a",
+        "url": "http://mechanists.org/maps",
+        "children": [
+          {
+            "text": "Server Map",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Hardware:",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "CPU: Ryzen 5 3600",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "RAM: 64GB - 6GB Allocated to Survival Server",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "The mods we use:",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Lithium"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Carpet Mod"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Carpet Extra"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Spark Mod, slightly modified"
+          },
+          {
+            "type": "a",
+            "url": "http://mechanists.org/maps",
+            "children": [
+              {
+                "text": "",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "http://mechanists.org/maps",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Current member list"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "A-Z",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Airil"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ajvej (Staff)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Allu (Staff)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Andrews54757"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "BurntTorch"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Bvella"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Burekpie"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "CommandLeo"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Darckshadow9"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "DesktopFolder"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Dixon"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "DatNerd"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Elvar (Staff)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Fillo"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ghosty"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "IDMC"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Jatoca"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Jacawag"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Javi liu"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "JohnyElgamer"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "DatNerd"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ken_2000"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Kdender (Staff)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Khazamer"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Kuiri"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Markus"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Mavry"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "MrEdog"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Orchestra"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Osteost"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Sander_Poelmans"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Slippzy"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "SpeedCuber (Staff)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Tesseraterra"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "TripleQAQ"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "TK"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Weimil"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Xyor"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "YourAction"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "May 8th, 2021",
+        "underline": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "children": [
+      {
+        "text": "1.13- chunkloading"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "1.14+ chunkloading"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Chunk loading in 1.14 was changed drastically and many ways of chunk loading where changed, in 1.14+ the only way to chunk is with a player or bot, a portal loader, or with a light surpressor. The spawn chunks where also expanded, it is also worth noting that mobs will now despawn in lazy chunks which removes lazy looting from the game for any mobs that do no have the persistence tag."
+      }
+    ],
+    "type": "paragraph"
+  }
+]

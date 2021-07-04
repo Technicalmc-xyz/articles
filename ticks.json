@@ -1,0 +1,309 @@
+[
+  {
+    "children": [
+      {
+        "text": "What is a tick"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "A tick is a part of the game loop where the game logic is processed"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Nearly all of the things that happen in the game are processed during a tick, and some of them are grouped in \"tick phases\""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "The most important phases, in order:"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Tile tick phase"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      },
+      {
+        "type": "a",
+        "url": "https://technicalmc.xyz/render-post/31",
+        "children": [
+          {
+            "text": "Tile ticks"
+          }
+        ]
+      },
+      {
+        "text": " are processed in this phase. The game selects tile ticks that have their processing tick (current tick when scheduled+delay) smaller or equal to the current tick."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "At most, 65536 tile ticks can be processed in a single tick. If there are more to process, the last tile ticks will be delayed to the next tick."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Block event phase"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Block events are processed in this phase. This includes things such as:"
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "piston extension/retraction"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "noteblock play note"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "chest/endercher/shulker open/close (change open count)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "bell updating villagers when hit"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "gateway start cooldown"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "mobspawner reset delay"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Block events are stored in a LinkedHashSet. The game loops through block events and processes them. Some block events can activate a "
+      },
+      {
+        "type": "a",
+        "url": "https://technicalmc.xyz/render-post/26",
+        "children": [
+          {
+            "text": "piston"
+          }
+        ]
+      },
+      {
+        "text": " and schedule another block event that is added a the end of the LinkedHashSet.This allow chaining multiple blockevents in the same tick."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Regular entity phase"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Regular entities are processed in this phase. This includes things such as:"
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "entities move"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "entities trigger tripwire hooks"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "entities trigger pressure plates."
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Tile entity phase"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Tile entities are processed in this phase. This includes things such as:"
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "moving blocks turn into normal blocks"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "moving blocks push entities"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "furnaces check for items in their inventory"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "hoppers push and pull"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "sculk sensors activate."
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Player inputs phase"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Player inputs are processed in this phase. This includes things such as:"
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "flipping levers"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "pushing buttons"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "placing blocks"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "breaking blocks"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  }
+]

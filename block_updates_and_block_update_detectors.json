@@ -1,0 +1,341 @@
+[
+  {
+    "children": [
+      {
+        "text": "Minecraft has a game mechanic called Block Updates. Redstone Components, liquids, and some other things rely on this to determine if something needs to be done."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "In the code it's a call that execute a function specific to the block. This call itself can send other block updates if the block changed and need to update neighboring blocks. This create a recursive call and stop until there no block to update. Each call in another call add memory in the program stack. If the calls go too far in depth, it will comsume all the memory in the stack and create a stack overflow error,causing an "
+      },
+      {
+        "type": "a",
+        "url": "https://technicalmc.xyz/render-post/41",
+        "children": [
+          {
+            "text": "update suppression"
+          }
+        ]
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "For example, lever right next to a trapdoor will send block updates so the trapdoor will see that the observer is powering it and become powered or no longer powered. However, in certain cases, something affected by block updates will be in a condition where it should do something, but needs a block update to realize that it needs to do something.  While some of these may seem like bugs, with some having been reported on the bug tracker, many are just part of maintaining game performance or original behaviour, generally in redstone where it's frequently used."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Types of block updates:",
+        "bold": true
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "",
+        "bold": true,
+        "underline": true
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "1. Neighbor changed update, redstone updates, most of the time just referred as updates:",
+        "bold": true
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Most of the time they are used to update a block when their received power can potentially change"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "What creates Block Updates?",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "A block going from being one block to another (By a player placing a block in a replaceable location, by a fill command, by falling_block entity hitting the ground or a gravity block on tile tick deciding to fall, by trees setting blocks, changing a block into a different block, air being replaced by Moving_piston, a dispenser removing or placing a liquid or fire)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Placing and removing of redstone components and rails (such as by a player or by a piston, including converting it to Moving_piston) to wherever they could power or for rails around the block they're on and themself. This makes it so that nondirect neighbors to the placed component adjust themselves properly"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Some components changing state, including but not limited to powered rails becoming powered (around the block they're on, themself and if sloped around the block above), mobs setting the trigger for pressure plates and tripwire, repeaters on changing their power or their delay, comparators on having a different input or changing their mode, note blocks and bells on changing power (1.13+), and redstone dust on changing its power level, bubble columns being broken or created, scaffolding changing its distance, or a waterlogged block no longer being waterlogged"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "A "
+          },
+          {
+            "type": "a",
+            "url": "https://technicalmc.xyz/render-post/31",
+            "children": [
+              {
+                "text": "tile tick"
+              }
+            ]
+          },
+          {
+            "text": " being executed changing the state or power output of a block"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "How to detect them:",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "A budded redstone component will react to a blockupdate"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Examples:",
+        "underline": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "For some redstone components:"
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Pistons can be budded by being unable to extend upon being powered, or when retracting into a powered position where they cannot extend"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Droppers, Dispensers, and pistons can be budded by Quasi Connectivity"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Powered rails and activator rails can become budded due to their circumstances of deciding when they are no longer powered, including some conditions of moving rails."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "In the case of a piston removing what was powering it, before finishing extending"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "For redstone component that react to received power:"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "By moving a detector rail into a location where it would power something through the block it's on, as it does not send non adjacent updates when reaching the location if it doesnt change powered state"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "By powered redstone dust changing its direction, making redstone components budded by the direction change sending no block updates."
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "For some odd ones:"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "To make a block update detector simply place a sticky piston facing up, with a single slime block on top of the piston and a redstone block on top of the slime block. Then when a block update occurs on the piston it will extend and then retract unless further updated."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "2. State update, observer update,shape update:",
+        "bold": true
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "These are sent everytime a block change state, with a few exceptions, a powered observer finishing moving, a sticky piston failling to retract a slimeblock."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "They are use by blocks to check if they should pop off or not by checking supporting block, trigger observers, and change shape depending of neighboring blocks"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "How to detect them:",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "an observer will output a signal when a state change in from of it"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "It is also possible to bud block that react to state updates"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Examples:",
+        "underline": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Liquide update detectors (LUD)"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "3. comparator updates",
+        "bold": true
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Sent from block when they can potentially change comparator output"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "How to detect them:",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Theses updates will check for a comparator block and update it with a neighbor changed update, so you can bud a comparator, see comparator update detector"
+      },
+      {
+        "type": "a",
+        "url": "https://minecraft.gamepedia.com/Tutorials/Comparator_update_detector",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "text": " (CUD)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1095 @@
+[
+  {
+    "children": [
+      {
+        "text": "History"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "HammerSMP was created on  Sun Now 17 2019 by pags5. Pags left the server on Tue Jun 23 2020 after losing interest in technical Minecraft. Server ownership has been transferred to Nice2U."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "HammerSMP is a 1.15.2 technical Minecraft server."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Projects"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "HammerSMP has many notable projects and many others in the working. The most notable is probably "
+      },
+      {
+        "type": "a",
+        "url": "https://youtu.be/0ZiU_pcmoEE",
+        "children": [
+          {
+            "text": "End Of Light (EOL)"
+          }
+        ]
+      },
+      {
+        "text": ". EOL uses light suppression was originally discovered by Kayleigh, but made survival friendly by HammerSMP and made into useable mob farms."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "EOL provides the fastest mob farms with rates going up to 4 mil items / h not barring lag on a single mobcap. EOL is possible with the following mob farms:"
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "General mob farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Spider Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Skeleton Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Drowned Farm"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Witch Farm "
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Bat Farm"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "HammerSMP has made the fastest 1.15.0-1.16.0 "
+      },
+      {
+        "type": "a",
+        "url": "https://youtu.be/6SxxmhF8Kk4",
+        "children": [
+          {
+            "text": "iron farm"
+          }
+        ]
+      },
+      {
+        "text": " using end gateway unloading discovered by vktec."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Hammer also has made the current fastest 1 player dual guardian farm with a rate of 1.8 mil items/h and the fastest slime farm with a rate of 1.65 mil items/h."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Hammer also discovered a 8x portal glitch in Minecraft 1.14+ called "
+      },
+      {
+        "type": "a",
+        "url": "https://youtu.be/hZRg4udn96c",
+        "children": [
+          {
+            "text": "Project Stargate"
+          }
+        ]
+      },
+      {
+        "text": ". This is done by making the player go in both the end and nether in the same game tick."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "HammerSMP also has open-source projects. These are projects where everything is openly available to everyone from the community and anyone can contribute."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "The only open-source project at the moment is Project EnderCHest. Project EnderCHest is an advanced item storage network for the purpose of exploring the integration of computing and physical coding with item storage to allow the system to be built once and then never touched while having the contents accessible anywhere in the world and in survival."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "HammerSMP is also developing 4-wide and 3-way bedrock breakers for Minecraft 1.13+."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Furthermore, some HammerSMP members also develop mods and tools for Minecraft."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Server details"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "HammerSMP is running on a dedicated server from Hetzner. It runs fabric with the following mods: Carpet, Carpet Extra and Lithium."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Current member list (people in parenthesis are no longer members but still contribute to the server):"
+      },
+      {
+        "type": "a",
+        "url": "https://www.youtube.com/channel/UCORl9njzxP5g2Grcc-8nJkw",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCwpTEcvjzDKDBpVgRPH-gbA",
+            "children": [
+              {
+                "text": "abaddon"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCwpTEcvjzDKDBpVgRPH-gbA",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCTcMr19KsC2L6b4pQmw3KuA",
+            "children": [
+              {
+                "text": "Ainsley"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "(AMereBagatelle)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "("
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCvyFohsbAf85js1sNdV2T-g",
+            "children": [
+              {
+                "text": "Aqua"
+              }
+            ]
+          },
+          {
+            "text": ")"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Barcelona"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCtB8VvcjGsEeP_lqFxG3NQg",
+            "children": [
+              {
+                "text": "Comedy"
+              }
+            ]
+          },
+          {
+            "text": " (Rythm)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCsrxrOtjmWnH5FJhJnkTRBg",
+            "children": [
+              {
+                "text": "cubicmetre"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UC2Uihyb5yNis0uHqs-OWVJw",
+            "children": [
+              {
+                "text": "DatNerd"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "("
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCT6dlqkDpEw86jlyE4gUseQ",
+            "children": [
+              {
+                "text": "deweyhinni"
+              }
+            ]
+          },
+          {
+            "text": ")"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "DrRush"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "(Fiery)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCORl9njzxP5g2Grcc-8nJkw",
+            "children": [
+              {
+                "text": "Firigion"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCpRL2lW4WHe267ER3DWrf5A",
+            "children": [
+              {
+                "text": "FrostieBits"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "(Fuby)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCcfwU_-ss8YT353pg3tqvpg",
+            "children": [
+              {
+                "text": "Heartbreaker"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCcfwU_-ss8YT353pg3tqvpg",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCY4G4Ayi9E8w6ica6FP4aXg",
+            "children": [
+              {
+                "text": "IDMC"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCcfwU_-ss8YT353pg3tqvpg",
+            "children": [
+              {
+                "text": "IGN"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "(ima)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UC5Lk-lnrHZDYF4n5iu86BBA",
+            "children": [
+              {
+                "text": "ImplicitPsycho"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCzh6pVDzMFfMPXBVh8dBqZw",
+            "children": [
+              {
+                "text": "Jane"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "jky"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCxS1VcG-yL7ux6NyQ8wfffA",
+            "children": [
+              {
+                "text": "Jonas Paladin"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UC4OZETXeQu2a0CRMplut-9A",
+            "children": [
+              {
+                "text": "Jorvp"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Joran2805"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Just Emelyn"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "(Kelvinthebear)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/c/kuirie",
+            "children": [
+              {
+                "text": "Kuiri"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/c/kuirie",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": "oxxoꓞuʍoꓷǝpᴉsdꓵ (Foxxo)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "("
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UC0AxbS-r4CNwPYlrLCjh0yg",
+            "children": [
+              {
+                "text": "maltz"
+              }
+            ]
+          },
+          {
+            "text": ")"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCYSJqRtsZOl8SjeAVcWEJww/",
+            "children": [
+              {
+                "text": "Nice2U"
+              }
+            ]
+          },
+          {
+            "text": " (owner)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCgaxgf1oyLjWLUUZuwtScag",
+            "children": [
+              {
+                "text": "OreoLamp"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCgaxgf1oyLjWLUUZuwtScag",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": "OpticNerve"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "(Pagani)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCgU_GV02YV_aqJpMC42bcbg",
+            "children": [
+              {
+                "text": "PapiChase"
+              }
+            ]
+          },
+          {
+            "text": " (Dillon)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCWKde370uRdJCPIPjQp8S7w",
+            "children": [
+              {
+                "text": "PauMB"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCZPR2no7zsOlsgFWBYvPWVg",
+            "children": [
+              {
+                "text": "Pingu"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCfpEYD7Vc_ODusnajOy0vxg",
+            "children": [
+              {
+                "text": "PoisonDagger"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCX_5sQz_3yR5gINfdO1_QTA",
+            "children": [
+              {
+                "text": "PrgmTrouble"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCV1x-9YyARzmeZVgRdsiDKA",
+            "children": [
+              {
+                "text": "Ramenkiller "
+              }
+            ]
+          },
+          {
+            "text": "(Kiabi)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "("
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCr0OY9nrkXnVrUN96illM6Q",
+            "children": [
+              {
+                "text": "RR"
+              }
+            ]
+          },
+          {
+            "text": ")"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Sebmandal"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "("
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCLsZBWhal81m-1TXMDYrxxQ",
+            "children": [
+              {
+                "text": "SenshiRoll"
+              }
+            ]
+          },
+          {
+            "text": ")"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "(Solly)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "("
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UCd_uXmNu4-kIhFT_flFk_6w",
+            "children": [
+              {
+                "text": "SRZKVT"
+              }
+            ]
+          },
+          {
+            "text": ")"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/channel/UC-fSw4nFJNjMXvVgVsENQKw",
+            "children": [
+              {
+                "text": "Stormloop"
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/c/viktor40",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "("
+          },
+          {
+            "type": "a",
+            "url": "https://www.youtube.com/c/vktec",
+            "children": [
+              {
+                "text": "vktec"
+              }
+            ]
+          },
+          {
+            "text": ")"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Watsu"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  }
+]

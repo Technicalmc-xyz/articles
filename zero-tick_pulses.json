@@ -1,0 +1,183 @@
+[
+  {
+    "children": [
+      {
+        "text": "What is a zero-tick pulse?"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "A zero-tick, or 0-tick pulse, is any redstone pulse whose length is less than one gametick. At first, this may not seem possible, as you would think that the shortest redstone pulse would be one that turns on in gametick ~0 and turns off in the next tick, gametick ~1. Upon closer inspection of the code, we realized that a pulse could turn on in one moment in the tick and turn off in another, later moment in the tick. (see "
+      },
+      {
+        "type": "a",
+        "url": "https://technicalmc.xyz/render-post/15",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "text": ""
+      },
+      {
+        "type": "a",
+        "url": "https://technicalmc.xyz/render-post/15",
+        "children": [
+          {
+            "text": "this post"
+          }
+        ]
+      },
+      {
+        "text": " for an explanation of tick phases)"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Redstone components affected by zero-tick pulses:"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "redstone dust"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "piston"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "trapdoor"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "spruce trapdoor"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "door"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "sticky piston"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "dispenser"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "History"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "zero ticks were discovered."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Zero tick farms"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "A zero tick farm is a farm that relies on 0-ticking the block a crop (which grows on top of itself) is resting on, which forces it to grow a stage. This but however was patched in "
+      },
+      {
+        "type": "a",
+        "url": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w12a",
+        "children": [
+          {
+            "text": "20w12a"
+          }
+        ]
+      },
+      {
+        "text": " ("
+      },
+      {
+        "type": "a",
+        "url": "https://bugs.mojang.com/browse/MC-113809",
+        "children": [
+          {
+            "text": "MC-113809"
+          }
+        ]
+      },
+      {
+        "text": ") and does not work in 1.16+."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Other uses:"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "-In shulker box loaders for box breaking"
+      }
+    ],
+    "type": "paragraph"
+  }
+]

@@ -1,0 +1,409 @@
+[
+  {
+    "children": [
+      {
+        "text": "Why do people play non-latest versions?"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "If you are new to technical Minecraft you will probably find yourself wondering, why does the machine I saw on Scicraft not work on my [insert latest version] world? The reason itself is really quite simple, just like mumbo's redstone: Scicraft is not running [insert latest version], they run 1.12.2. As well, contrary to popular belief, there are other technical servers, and to top it all off, many of those also run 1.12.x, with some even running more obscure versions including 1.7.2, 1.8.1, 1.13.1, 1.15.2, and more."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Mechanics Changes by Version"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "1.16"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "redstone dust behaviour changes"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "mobs can only go one pack over the mobcap when spawning in a single tick"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "villagers now save their golem spawning cooldown to NBT"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "villagers no longer need to have worked in the past in-game day to spawn golems"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "1.15"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "mobs despawning now happens the same way in lazy chunks as they do in entity-processing chunks"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "1.14"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "iron farm/village mechanics drastically changed several times from 1.14-1.14.4, see the iron farming page"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "new chunk loading level (in addition to lazy and entity processing): border, these can only process block events, block updates, and state updates"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "chunks no longer get unloaded by the autosave every 900gt, instead all chunk loading tickets come with a timer specifying how long until they should unload."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "when an unloaded chunk is accessed, for example by a hopper or a chest, it is loaded as a border chunk for &lt;1gt"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "when an entity goes through a nether portal, a 3x3 of chunks on the destination side is loaded as entity processing for 299gt, which causes the chunks around this 3x3 square and diagonal to the corners to become lazy loaded for that time, and the chunks around that 5x5 square and diagonal to the corners to become border loaded for that time"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "spawning heightmap now checks for all blocks, instead of only light-obstructing blocks."
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "1.13"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "spawning \"heightmap\" is per-block instead of per-subchunk"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "mobs no longer spawn outside of the 128m radius sphere centred on the player"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "dragon egg bedrock breaking removed"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "RNG manipulation no longer possible (idk why someone go say)"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "1.9"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "block 36 now has a hitbox, removing the shifting floor mechanic"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "piston no longer retracts an extended piston when de-powered in the same gametick"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "1.8"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "LC value now decreases when skylight-obstructing blocks are removed from upper subchunks"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "light updates no longer affect LC value"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "the partial removal of block/item IDs causes some unused blocks to be removed"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Performance Changes by Version"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "1.16"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "rails give out significantly less block updates"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "block hitbox shapes are no longer checked individually for a \"full top surface,\" and are instead cached"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "1.15"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "redstone dust gives out significantly less block updates upon de-powering, as it now de-powers 2 levels at a time instead of 1"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Portals are now aed via POI which makes going through portals much faster."
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "1.14"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Lighting engine was moved to a seperate thread."
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "1.13"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "\"The Flattening\" and related changes cause major performance drops across the board in relation to 1.12"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "rails give out significantly more block updates"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "block hitbox shapes are now checked individually for a \"full top surface\""
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "every update"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "less performance"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  }
+]

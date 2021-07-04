@@ -1,0 +1,981 @@
+[
+  {
+    "children": [
+      {
+        "text": "The analysis is done in 1.16.4 by FX (PR0CESS)",
+        "italic": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "",
+        "italic": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "\"World Border\" - The visible barrier on the edge of the Minecraft world"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "\"World Boundary\" - An invisible wall 1 chunk further than the World Border at the edge of the world. This does not change when the world border changes its size."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Appearance",
+        "bold": true
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "The world border by default looks like blue stripes that are animated. These stripes will become red if the border is shrinking or growing. The border will always appear red in the nether dimension."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Size",
+        "bold": true
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "The world border is the bounding box that surrounds the Minecraft world and prevents you from going past the integer limit on the X & Z axes. The exact size at which the world border is set by default is: X/Z ±29,999,984 - Which is one chunk less than 30M"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "The center & size of the world border can be changed using the "
+      },
+      {
+        "text": "/worldborder",
+        "code": true
+      },
+      {
+        "text": " command"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "The world border will always apply physics in full blocks, so even if it's halfway through a block internally it's still calculated per block. It will have different sizes based on which dimension you are in, these sizes are determined by the dimension shrinking value."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Entity Collision",
+        "bold": true
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Most entities when hitting the world border will collide with it as if it's a block. Here is the list of entities that are not affected by the world border:"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "All Fireballs"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "All Throwable Potions"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "XP Bottles"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ender pearls"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Snowballs"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Eggs"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Arrows"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Tridents"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Wither skulls"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ender Dragon"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Entities can still be shot outside of the world border using a dispenser or dropper facing directly into the world border. All entities will act normally outside of the world border. Spiders can climb the world border, and enderman can teleport & place blocks outside of the world border."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Getting outside the world border",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "There are many ways for player to go outside of the world border. Here are the easiest and most common methods:"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Throwing an ender pearl through the world border"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Using a player valid spawning condition such as sleeping or exiting and entity"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Eating Chorus fruit to teleport past the world border"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Using the "
+          },
+          {
+            "text": "/teleport",
+            "code": true
+          },
+          {
+            "text": " command"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Allowing the world border to shrink past you"
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Blocks",
+        "bold": true
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Blocks outside of the world border do not have a hitbox, this means players are unable to interact with blocks outside of the world border. Players cannot place or break blocks normally. Here are a few ways to place blocks outside the world border:"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Scaffold",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Scaffolding does not check if it is being extended past the world border, therefore you can easily place scaffolding against itself to place scaffolding outside the world border."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/719001038362771507/797115230743429180/2021-01-08_09.42.13.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Beds",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "This is very simple, beds if placed directly on the world border extend one block in due to being 2 blocks long"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Placing against a block",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "You are able to place a block on the other side of the world border by placing the block against a block within the border. Trapdoors are usually the best block to do this with."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/719001038362771507/797117021048274954/2021-01-08_09.57.24.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "You are also able to place blocks against full blocks if the player is outside of the world border. This is because the world border is a float more into the world, which is why you can't interact with a block outside even if it's touching the border"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Sticky Piston Head",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "An interesting bug with the piston head can be used to place blocks on the other side of the world border. Just have a sticky piston facing into a block, facing into the world border, then power the sticky piston. Doing this with a regular piston will create a B36 as displayed in the B36 creation Method #2 below."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/719001038362771507/797118844472655932/2021-01-08_10.00.51.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Fluids",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Fluids can pass freely through the world border as if it doesn't even exist."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Chests",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Chests outside of the world border can be accessed, if another chest is placed next to them, extending that chest's inventory outside of the world border where it can be accessed by a player. "
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Moving_Piston (B36) creation using the world border"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "The world border is the only known place that a Moving_Piston (B36) can be created in 1.17. There are a few ways of creating a Moving_Piston (B36) this way. I also include the block data in case you might need it."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Method #1 - ",
+        "bold": true
+      },
+      {
+        "text": "[Piston Facing out]"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/793179568508108820/807335822226358282/huge_2021-02-05_14.29.14_0000.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "B36 Block Data:",
+        "underline": true
+      },
+      {
+        "text": " ",
+        "bold": true
+      },
+      {
+        "text": "{blockState: {Properties: {facing: \"[dir]\", extended: \"false\"}, Name: \"minecraft:piston\"}, x: [xPos], y: [yPos], z: [zPos], facing: [facing], progress: 0.0f, id: \"minecraft:piston\", source: 1b, extending: 0b}",
+        "bold": true,
+        "code": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Method #2 - ",
+        "bold": true
+      },
+      {
+        "text": "[Piston pushing block against]"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://cdn.discordapp.com/attachments/793179568508108820/807341516728303636/huge_2021-02-05_14.55.03_0000.png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "B36 Block Data:",
+        "underline": true
+      },
+      {
+        "text": " ",
+        "bold": true
+      },
+      {
+        "text": "{blockState: {Properties: {[blockPushedProperties]}, Name: \"[blockPushedName]\"}, x: [xPos], y: [yPos], z: [zPos], facing: [facing], progress: 0.0f, id: \"minecraft:piston\", source: 0b, extending: 1b}",
+        "bold": true,
+        "code": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "This can also be done using a regular piston if the piston is 1 block closer to the border."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Method #3 - ",
+        "bold": true
+      },
+      {
+        "text": "[Piston pushing in]"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "type": "img",
+    "url": "https://media.discordapp.net/attachments/793179568508108820/807318838139813948/WorldBorder_B36.png?width=1440&height=545",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "B36 Block Data:",
+        "underline": true
+      },
+      {
+        "text": " ",
+        "bold": true
+      },
+      {
+        "text": "{blockState: {Properties: {facing: \"[dir]\", short: \"false\", type: \"[pistonHeadType]\"}, Name: \"minecraft:piston_head\"}, x: [xPos], y: [yPos], z: [zPos], facing: [facing], progress: 0.0f, id: \"minecraft:piston\", source: 1b, extending: 1b}",
+        "bold": true,
+        "code": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "This can also be done with the piston being one block inside the world border, then blowing up the piston body using TNT"
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Other Methods",
+        "bold": true
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Currently, all other methods are just different orientations or placement of these 3 methods."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Blocks outside the world border"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Most blocks work the same outside the world border. Except for Ticking tile entities. All scheduled ticks will continue working but tile ticks called every tick will not. This prevents Pistons from being able to retract, furnaces from smelting, hoppers from pushing items into containers, end gateways from extending their life, etc..."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Pushing blocks against the world border"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "If a piston pushes a block so it touches the world border, it can cause a Moving_Piston (B36) to appear, this Moving_Piston (B36) will display the block that got pushed, resulting in an effect where you can merge multiple block textures together."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Pistons pushing past the world border"
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "children": [
+      {
+        "text": "Pistons are able to push past the world border under certain conditions. If the piston is facing into the world border and the block on the other side of the border can be destroyed by a piston, then the piston will set its extended state to true, but will only place a Moving_Piston (B36) in front of the piston. When depowering this piston it will retract normally, although if you break this piston while it's extended, the Moving_Piston (B36) will stay. This Moving_Piston (B36) has an extended hitbox of a piston head where the Moving_Piston (B36) is located. Although its tile entity is rendered inside the piston block that just got broken since the tile entity's extended time is 0."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Block Breaking Progression Saving"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "The world border is able to prevent block breaking progression from changing. You can do this by starting to break a block that is against the world border, then look at a block next to it that is on the other side of the world border but still touching the world border. Doing so will keep the block breaking progression on the block. You can then push another block in its place and the client will keep the progression, allowing you to break the block much faster than usual."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "The Final Boundary"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "The world border itself can be passed as explained above in "
+      },
+      {
+        "text": "Entity Collision",
+        "underline": true
+      },
+      {
+        "text": ". Once you pass the world border you enter a 1 chunk buffer before the actual world boundary. The world boundary is an absolutely impenetrable wall that can't be passed, located at exactly 30M."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "In between the final boundary and the world border you will take damage, there is a 5 block safe zone in front of the world border, once you pass that you take 0.2 Damage for every block in. This means you take 2.2 damage per tick right on the world boundary."
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "type": "paragraph"
+  },
+  {
+    "children": [
+      {
+        "text": "Technical Bugs related to the world border",
+        "underline": true
+      }
+    ],
+    "type": "h2"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "",
+            "underline": true
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-54587",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-54587",
+            "children": [
+              {
+                "text": "Block breaking progress can be saved using world borders"
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-54119",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-54119",
+            "children": [
+              {
+                "text": "Can place/take water/lava/lilypads outside world border (Ghost Block)"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-220191",
+            "children": [
+              {
+                "text": "Unable to use any items when aiming at a block that is outside the worldborder"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-223190",
+            "children": [
+              {
+                "text": "Blocks cannot be blown up past 30 million"
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-220191",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Bug relating to Block Breaking Progression Saving at the world border"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "In 1.16+ You can only pick up water and lava, but not place down anything."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "This bug happens due to the same reason that Bug #1 happens."
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "In the 1.17 snapshots (21w15a) they made it so that explosions no longer break blocks past 30 million"
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-220191",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-220191",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-220191",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          },
+          {
+            "type": "a",
+            "url": "https://bugs.mojang.com/browse/MC-54119",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "type": "li"
+      }
+    ]
+  }
+]

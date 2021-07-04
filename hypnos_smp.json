@@ -1,0 +1,487 @@
+[
+  {
+    "children": [
+      {
+        "text": "History"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Hypnos was founded by NotCreative on Saturday 26th October 2019 as a 1.12.2 technical server. It is named after the Greek God of sleep by the same name, although that is one thing that the owner and many of the members lack. The server's public discord is here."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Projects"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "Unlike some servers, Hypnos takes pride in digging large perimeters for farms and more. Combined, the server is at almost 60 million pick uses at the time of writing, and over 4 million diamond shovel uses. One notable dig was the speedrun perimeter, which was dug in a little under 23 hours, which is almost half of the last record. However, TNT duping has been used to create some larger perimeters. In total, there are 15 perimeters."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Hypnos has some remarkable projects that are among the best in the community. The guardian farm, developed mainly by Terra, is by far the fastest in Minecraft across all versions, reaching in excess of five million items per hour. So far, two of the world border corners have been reached in the overworld, with plans to reach the other two soon in the future. Other notable projects include the dual witch hut looting setup in a hand-dug perimeter dubbed as "
+      },
+      {
+        "type": "a",
+        "url": "https://imgur.com/a/1wAGonO",
+        "children": [
+          {
+            "text": "'Hazza Perimeter'"
+          }
+        ]
+      },
+      {
+        "text": ", the full render-distance, decorated main storage perimeter and the "
+      },
+      {
+        "type": "a",
+        "url": "https://imgur.com/a/2Z8Q3d4",
+        "children": [
+          {
+            "text": "nether hub"
+          }
+        ]
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Hypnos currently has three RNG grids: one for ore RNG, one for iron RNG (or as we call it, RRNG) and one for husk RNG."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Server details"
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": "NotCreative runs all of Hypnos' servers, which typically include the SMP, CMP and SMP copy. The server runs on 1.12.2 carpet, with various rules enabled in order to make more resources available without having to duplicate them, and to make the game more fun to play. The server votes on which rules to enable and how to obtain certain items. Notably, husks spawn in temples and drop sand on death, silverfish drop gravel when escaping a block, Shulkers respawning in end cities and we use QoL features such as careful break. The full list of server specifications and rules can be found on the website, "
+      },
+      {
+        "type": "a",
+        "url": "https://hypnos.us.to/pages/about.html",
+        "children": [
+          {
+            "text": "here"
+          }
+        ]
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "text": "Current member list as of 30th December, 2020. Sorted by alphabetical order."
+      }
+    ],
+    "type": "h1"
+  },
+  {
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "children": [
+          {
+            "text": "Admins",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "NotCreative(owner)"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Daniel"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Gekkemat"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Members",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "A1306"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "AFunkyMonk"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Angarn"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "B1nary"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Bleddyn"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "BlueCore"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Chezloc"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ciren"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Commits_"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Dex"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Dobermen"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "EmeraldHuntsman"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Fawhs"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Freeze"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "FrodobagginsTNT"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Ian"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "ImplicitPsycho"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Itssunnyk"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Jurassic"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Kelvinthebear"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "M3dry"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "M4JCI"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Marklin"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Mercuriano"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Mondead"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Oblivion"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Pentasteve"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Phreak"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Pocketomi"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Propagand24"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Pseudomagnetism"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Rusty"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Satsu"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Terra"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Trekker"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Inactive members",
+            "bold": true
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Activation"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Iceburg"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Rift"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": "Viktor40"
+          }
+        ],
+        "type": "li"
+      },
+      {
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  }
+]
