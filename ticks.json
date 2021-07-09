@@ -1,12 +1,4 @@
-[{"children":[{"children":[{"text":""}],"type":"p"}]}]is a tick"
-      }
-    ],
-    "type": "h1"
-  },
-  {
-    "children": [
-      {
-        "text": "A tick is a part of the game loop where the game logic is processed"
+[{"children":[{"children":[{"text":""}],"type":"h1"}]}] is a part of the game loop where the game logic is processed"
       }
     ]
   },
